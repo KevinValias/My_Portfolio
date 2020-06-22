@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    
+    <nav id="navbar">
+      <div class="container">
+      <h1 class="logo"><a href="index.html">Contact Full-Stack Web Developer</a></h1>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Resume</a></li>
+        <li><a href="about_Page.html">About Me</a></li>
+        <li><a href="my_blog.html">My Blog</a></li>
+        <li><a class="current" href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+      </nav>
+</header>
+  </nav>
+  <section class="form">
+  <form action="results.html" method="GET" enctype="multipart/form-data">
+      
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Username" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email" required>
+    </div>
+    <div>
+      <label for="phone">Phone</label>
+      <input id="tel" name="phone" id="phone" placeholder="123-456-7890" required>
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" min="1" max="200" step="5" placeholder="#">
+    </div>
+    <div>
+      <label for="Optional Birthday Wish with birthdate submission"></label>
+    </div>
+    <div>
+      <label for="date">Birthdate</label>
+      <input type="date" name="date" id="date" min="1950-06-10">
+    </div>
+    <div> 
+      Gender
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+    </div>
+    <div>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+    </div>
+    <div>
+      <label>Do you wish to be contacted?</label>
+      <label>Yes</label>
+      <input type="radio" name="yes" id="yes" value="yes">
+      <label>No</label>
+      <input type="radio" name="no" id="no" value="no">
+    </div>
+    <div>
+      <label>How did you hear about me?</label>
+    </div>
+    <div>
+      <lable>Classmate</lable>
+      <input type="checkbox" id="checkbox" value="checkbox">
+    </div>
+    <div>
+    <div>
+      <lable>Resume Submission</lable>
+      <input type="checkbox" id="checkbox" value="checkbox">
+    </div>
+    <div>
+    <div>
+      <lable>Linkedin</lable>
+      <input type="checkbox" id="checkbox" value="checkbox">
+    </div>
+    <div>
+    <div>
+      <lable>Coding Academic Rec</lable>
+      <input type="checkbox" id="checkbox" value="checkbox">
+    </div>
+    <div>
+      <label for="Comments">Comments</label>
+      <textarea id="bio" name="bio" min="20" max="500" placeholder="Comments"></textarea>
+    </div>
+    <input type="hidden" name="hidden" value="hi">
+    <div>
+      <label for="file">File</label>
+      <input id="file" type="file" name="file">
+    </div>
+    <div>
+      <label for="phone">Phone</label>
+      <input type="tel" name="phone" id="phone">
+    </div>
+    <div>
+      <label for="url">URL</label>
+      <input type="url" name="url" id="url">
+    </div>
+    <div>
+      <label>
+        Password
+        <input type="password" name="password" required>
+      </label>
+    </div>
+    <button class="btn" type="reset">Reset</button>
+    <button class="btn" type="submit">Submit</button>
+  </form>
+</section>
+  <footer id="main-footer">
+    <p>Full-Stack Web Developer</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-position: center ;
+  width: 100vw;
+  height: 100vh;
+  background: url('./Jelyfish.jpg') no-repeat center center;
+ 
+}
+/* What kind of selector is this? */
+.logo {
+   width: 160px;
+  height: 125px;
+}
+header {
+  display: flex;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  ;
+}
+main {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+   ;
+}
+
+/* This is an element within and element selector */ 
+
+
+
+.has-border {
+  border-radius: 25px;
+  border: none ;
+  background: none;
+  padding: 27px;
+}
+.has-border:hover {
+  background-color: #FFA733  ;
+}
+ 
+  #navbar {
+  background: #FF5733;
+  color: #fff;
+  overflow: auto;
+  }
+  #navbar a {
+  color: #fff;
+  }
+  #navbar .logo {
+  float: left;
+  padding-top: 20px;
+  }
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  #navbar ul li {
+    float: left;
+  }
+  
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 2%;
+  background: #FF5733 ;
+}
+
+#profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 15% auto;
+  grid-column: 2/3;
+}
+
+
+ 
+
+
+h1 {
+  color:black;
+  grid-column: 2/3;
+  margin: 3% auto;
+  border-bottom: 2px solid #3357FF   ;;
+}
+
+h2 {
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-style: italic;
+}
+
+.small-text {
+  grid-column: 2/3;
+  color: white;
+  font-size: 10px;
+  margin: 3% auto;
+}
+
+button {
+  grid-column: 2/3;
+  margin: 3% auto;
+  width: 80%;
+  height: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  border-radius: 25px;
+  background: #FF5733  ;
+  padding: 5px;
+  padding-bottom:7%;
+  text-align: center;
+  color: white;
+  letter-spacing: 18px;
+  font-style: italic;
+}
+
+
+a {
+  text-align: center;
+  padding: 20px;
+  color: #910000;
+}
+a:hover {
+  color: aqua;
+}
+button:hover {
+color:aqua
+}
+#main-footer {
+  text-align: center;
+  background: #FF5733;
+  color: #fff;
+  padding: 20px;
+  }
